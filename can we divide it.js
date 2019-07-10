@@ -12,3 +12,10 @@
 // (4, 1, 4)     ->  true
 // (15, -5, 3)   ->  true
 
+const divider = (a, b, c) => {
+    if (a / b === c){
+        return true;
+    } else {
+        return false;
+    }
+}
