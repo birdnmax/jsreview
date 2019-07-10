@@ -9,3 +9,21 @@
 // if (x) == ['a', 3] you should return [['a', 3], ['a', 3], ['a', 3]].
 
 
+const twoArray = (arr) => {
+    let score = 0;
+    if (typeof(arr[0]) === 'number' && typeof(arr[1]) === 'number'){
+        let score = arr[0] * arr[1]
+    }else if (typeof(arr[0]) === 'number'){
+        let score = arr[0]
+    }else if (typeof(arr[1]) === 'number'){
+        let score = arr[1]
+    }else{
+        return 'Void!'
+    }
+    return score;
+}
+
+
+console.log(twoArray('b', 3))
+console.log(twoArray(2, 3))
+console.log(twoArray('b', 'a'))

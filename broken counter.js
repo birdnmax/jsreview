@@ -5,11 +5,11 @@ function Counter() {
 }
 
 Counter.prototype.increase = function() {
-  this.value++;
+  this.value += this.value;
 };
 
 Counter.prototype.getValue = function() {
-   this.value;
+   this.value = this.value;
 };
 
 Counter.prototype.reset =  function() {

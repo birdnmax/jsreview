@@ -11,3 +11,68 @@
 // Each calculation consist of exactly one operation and two numbers
 // The most outer function represents the left operand, the most inner function represents the right operand
 //
+const num = (n) => {
+    if (n='zero'){
+        let n = 0
+    } else if (n='one'){
+        let n = 1
+    } else if (n='two'){
+        let n = 2
+    } else if (n='three'){
+        let n = 3
+    } else if (n='four'){
+        let n = 4
+    } else if (n='five'){
+        let n = 5
+    } else if (n='six'){
+        let n = 6
+    } else if (n='seven'){
+        let n = 7
+    } else if (n='eight'){
+        let n = 8
+    } else if (n='nine'){
+        let n = 9
+    }
+    return n;
+}
+
+const num2 = (n) => {
+    if (n='zero'){
+        let n = 0
+    } else if (n='one'){
+        let n = 1
+    } else if (n='two'){
+        let n = 2
+    } else if (n='three'){
+        let n = 3
+    } else if (n='four'){
+        let n = 4
+    } else if (n='five'){
+        let n = 5
+    } else if (n='six'){
+        let n = 6
+    } else if (n='seven'){
+        let n = 7
+    } else if (n='eight'){
+        let n = 8
+    } else if (n='nine'){
+        let n = 9
+    }
+    return n;
+}
+
+const plus = (n1, n2) => {
+    return n1 + n2;
+}
+
+const minus = (n1, n2) => {
+    return n1 - n2;
+}
+
+const times = (n1, n2) => {
+    return n1 * n2;
+}
+
+const dividedBy = (n1, n2) => {
+    return n1 / n2;
+}
