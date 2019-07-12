@@ -13,3 +13,13 @@
 
 // Some random tests might fail due to a bug in the JavaScript implementation. Simply resubmit if that happens to you.
 
+const predictAge = (arr) => {
+    let mult = arr.map(x => x * x);
+    let add = mult.reduce((a, c) => a + c);
+    let root = Math.sqrt(add);
+    let divi = root / 2;
+    let dead = Math.round(divi);
+    return dead;
+}
+
+console.log(predictAge(65, 60, 75, 55, 60, 63, 64, 45))
