@@ -6,3 +6,9 @@
 //
 // Return the total figure the individual will receive as a string prefixed with '£' (JS and Java) or '$' (C#, C++, Ruby, Clojure, Elixir, PHP and Python).
 
+const makeMunny = (sal, bon) => {
+    return `£${bon ? sal * 10 :sal}`
+}
+
+console.log(makeMunny(1000, true))
+console.log(makeMunny(1000, false))

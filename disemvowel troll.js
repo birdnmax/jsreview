@@ -6,3 +6,8 @@
 //
 // For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
 
+const noTrolls = (str) => {
+    return str.replace(/[aeiou]/ig, '')
+}
+
+console.log(noTrolls('i wish i didnt have to troll'))

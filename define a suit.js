@@ -11,3 +11,21 @@
 // ('3♥') -> return 'hearts'
 // ('3♠') -> return 'spades'
 
+const suitor = (card) => {
+    if (card.includes('♣')){
+        return 'clubs'
+    } else if (card.includes('♦')){
+        return 'diamonds'
+    } else if (card.includes('♥')){
+        return 'hearts'
+    } else if (card.includes('♠')){
+        return 'spades'
+    } else {
+        return 'the joker'
+    }
+}
+
+console.log(suitor('3♣'))
+console.log(suitor('4♦'))
+console.log(suitor('5♥'))
+console.log(suitor('6♠'))

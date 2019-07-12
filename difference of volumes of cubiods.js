@@ -6,3 +6,11 @@
 //
 // If you can, try writing it in one line of code.
 
+const cubie = (cube1, cube2) => {
+    let vol1 = (cube1[0] * cube1[1] * cube1[2]);
+    let vol2 = (cube2[0] * cube2[1] * cube2[2]);
+    let diff = Math.abs(vol1 - vol2);
+    return diff;
+}
+
+console.log(cubie([2, 2, 3], [5, 4, 1]))
