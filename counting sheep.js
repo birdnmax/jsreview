@@ -12,3 +12,10 @@
 
 // Hint: Don't forget to check for bad values like null/undefined
 
+const counter = (arr) => {
+    let sheep = arr.filter(e => e == true)
+    return sheep.length;
+}
+
+console.log(counter([true,  true,  true,  false]))
+console.log(counter([true,  true,  false,  false]))

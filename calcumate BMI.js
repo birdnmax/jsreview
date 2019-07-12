@@ -20,3 +20,7 @@ const bmi = (w, h) => {
         return 'Obese'
     }
 }
+
+console.log(bmi(150, 5))
+console.log(bmi(130, 5))
+console.log(bmi(90, 5))

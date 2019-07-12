@@ -15,3 +15,9 @@
 
 // NOTE: for C++, cmath (i.e. math.h) is disallowed in this Kata, in particular the ceil function; otherwise, what is the fun of this Kata? ;)
 
+const century = (year) => {
+    return Math.floor(year/100 + 1);
+}
+
+console.log(century(101))
+console.log(century(505))

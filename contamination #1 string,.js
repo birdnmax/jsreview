@@ -13,4 +13,8 @@
 // character = "z"
 // after = "zzz"
 
+const alien = (text, char) => {
+    return bugged = text.replace(/[abcdefghijklmnopqrstuvwxyz]/g, char)
+}
 
+console.log(alien('testing', 'z'))

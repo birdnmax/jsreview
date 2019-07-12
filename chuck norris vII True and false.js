@@ -6,3 +6,10 @@
 
 // Go show some truth who's boss!
 
+const falsey = (str) => {
+    if (str == str){
+        return !true;
+    }
+}
+
+console.log(falsey('is this true?'))

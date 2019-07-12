@@ -14,5 +14,16 @@
 //
 // Good luck! :-)
 
+const herding = (fri, sat, total) => {
+    let friTot = 0;
+    let satTot = 0;
+    for (var i = 0; i < fri.length; i++){
+        friTot += fri[i]
+    };
+    for (var i = 0; i < sat.length; i++){
+        satTot += sat[i]
+    };
+    return total - friTot - satTot;
+}
 
-
+console.log(herding([3, 1, 2], [4, 5], 21))

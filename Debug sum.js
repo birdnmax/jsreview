@@ -4,3 +4,9 @@
 //
 // getSumOfDigits(123) // -> 6
 
+const getSumOfDigits = (n) => {
+    return Math.abs(n).toString().split('').reduce(function(a, b){return +a + +b}, 0)
+}
+
+console.log(getSumOfDigits(1234))
+console.log(getSumOfDigits(555))

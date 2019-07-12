@@ -17,4 +17,16 @@
 //
 // ["Open", "Open", "Senior", "Open", "Open", "Senior"]
 
+const membs = (arr) => {
+    let res = [];
+    for (var i = 0; i < arr.length; i++){
+        if (arr[i][0] >= 55 && arr[i][1] > 7){
+            res.push('Senior')
+        } else {
+            res.push('Open')
+        }
+    }
+    return res;
+}
 
+console.log(membs([[18, 20],[45, 2],[61, 12],[37, 6],[21, 21],[78, 9]]))
